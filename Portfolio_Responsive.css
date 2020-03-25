@@ -1,0 +1,377 @@
+.menu, 
+.header {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Base styles - mobile.  This style will be the base style for a mobile telephone viewport and the classes will be changed when the media queries
+ requiere to make changes */
+.header {
+	justify-content: all;
+}
+/*Using of flexbox layout in order to make the logo appear on the left side*/
+.total-header-logo {
+	height: 20%;
+    width: 20%;
+    display: inline-block;
+    padding: 2em 0 0 2em;
+    order: -1;
+}
+/*Using of flexbox layout in order to make the header appear at the right of the logo and before the divisory line*/
+.total-header {
+	display: inline-block;
+	vertical-align: top;
+	order: 0;
+}
+/*Using of flexbox layout in order to make the name appear in the desired order inside the total header*/
+.header-name {
+	display: inline-block;
+	font-size: 2.5em;
+	text-align: right;
+	order: 1;
+}
+
+.subtitle {
+	font-size: 1.5em;
+	text-align: right;
+	font-weight: normal;
+}
+
+.profession {
+	font-size: 1.2em;
+}
+
+.cover {
+	padding: 0.1em 1.5em 0 0;
+}
+
+.menu {
+	padding-bottom: 1em;
+}
+
+.menu-name {
+	font-size: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-text {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.foto {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+}
+
+.foto-title {
+	font-size: 1em;
+}
+
+.hiper {
+	min-width: 48px;
+	min-height: 48px;
+}
+
+.fa-facebook {
+	display: inline-block;
+}
+
+.fa-youtube {
+	display: inline-block;
+}
+
+.fa-whatsapp {
+	display: inline-block;
+}
+
+.fa{
+		font-size: 5em;
+		padding-left: 10%;
+	}
+
+footer {
+	font-size: 0.5em;
+  	font-weight: normal;
+	}
+
+/* In the media queries, only the classes that are necessary, will be changed with their new rules*/	
+@media screen and (min-width: 400px) and (max-width: 449px) {
+	.fa{
+		font-size: 8em;
+		padding-left: 3%;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 449px) {
+	.header-name {
+		font-size: 2.6em;
+	}
+
+	.profession {
+		font-size: 1.25em;
+	}
+
+	.menu-name {
+		font-size: 2em;
+	}
+
+	.foto-title {
+		font-size: 2em;
+	}
+
+	footer a {
+		font-size: 2em;
+	}
+
+	.fa{
+		font-size: 10em;
+		padding-left: 3%;
+	}
+}
+
+@media screen and (min-width: 319px) and (max-width: 411px) {
+	.subtitle {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 449px) and (max-width: 505px) {
+	.header-name {
+		font-size: 2.7em;
+	}
+
+	.subtitle {
+		font-size: 1.55em;
+	}
+
+	.profession {
+		font-size: 1.3em;
+	}
+
+	.menu-name {
+		font-size: 2em;
+	}
+
+	.foto-title {
+		font-size: 2em;
+	}
+
+	.fa{
+	padding-left: 8%;
+	font-size: 8em;
+	}
+
+	footer a {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 505px) and (max-width: 550px) {
+.fa{
+	padding-left: 7%;
+	font-size: 10em;
+	}
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px) {
+	.fa{
+	padding-left: 7%;
+	font-size: 12em;
+	}
+	}
+
+@media screen and (min-width: 700px) and (max-width: 850px) {
+	.total-header-logo {
+		width: 15%;
+		height: 10%;
+	}
+
+	.header-name {
+		font-size: 2.8em;
+	}
+
+	.subtitle {
+		font-size: 1.6em;
+	}
+
+	.profession {
+		font-size: 1.35em;
+	}
+
+	.menu-name {
+		font-size: 3em;
+	}
+
+	.foto-title {
+		font-size: 3em;
+	}
+
+	.fa{
+	padding-left: 7%;
+	font-size: 15em;
+	}
+
+	footer a {
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 850px) and (max-width: 950px) {
+	.total-header-logo {
+		width: 13%;
+		height: 8%;
+	}
+
+	.header-name {
+		font-size: 3em;
+	}
+
+	.subtitle {
+		font-size: 2.3em;
+	}
+
+	.profession {
+		font-size: 2em;
+	}
+
+	.menu-name {
+		font-size: 4em;
+	}
+
+	.foto-title {
+		font-size: 4em;
+	}
+
+	.foto {
+		height: 50%;
+	}
+
+	.fa{
+	padding-left: 9%;
+	font-size: 15em;
+	}
+
+	footer a {
+		font-size: 3em;
+	}
+}
+
+@media screen and (min-width: 950px) and (max-width: 1025px) {
+	.total-header-logo {
+		width: 11%;
+		height: 7%;
+	}
+
+	.header-name {
+		font-size: 5em;
+	}
+
+	.subtitle {
+		font-size: 2.9em;
+	}
+
+	.profession {
+		font-size: 2.4em;
+	}
+
+	.menu-name {
+		font-size: 5em;
+	}
+
+	.foto-title {
+		font-size: 4em;
+	}
+
+	.hiper {
+		font-size: 2.5em;
+	}
+
+	.vinculo {
+		min-width: 48px;
+		min-height: 48px;
+	}
+
+	.fa{
+	padding-left: 10%;
+	font-size: 17em;
+	}
+
+	footer a {
+		font-size: 4em;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.total-header-logo {
+		width: 10%;
+		height: 6%;
+	}
+
+	.header-name {
+		font-size: 6em;
+	}
+
+	.subtitle {
+		font-size: 3.5em;
+	}
+
+	.profession {
+		font-size: 2.9em;
+	}
+
+	.menu-name {
+		font-size: 6em;
+	}
+
+	.menu {
+		padding-left: 3em;
+	}
+
+	.menu-apps {
+		padding-left: 3em;
+	}
+
+	.foto {
+		width: 100%;
+	}
+
+	.foto-title {
+		position: relative;
+		text-align:center;
+		font-size: 2em;
+	}
+
+	.img-text {
+		width: 30%;
+		display: inline-block;
+		padding-right: 1em;
+	}
+
+	.hiper {
+		font-size: 1.5em;
+	}
+
+	.fa{
+	padding-left: 12%;
+	font-size: 17em;
+	}
+
+	footer a {
+		font-size: 5em;
+	}
+}
+
+
+
+
+
+
+	
+ 
+ 
