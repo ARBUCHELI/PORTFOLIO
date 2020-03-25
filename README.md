@@ -16,6 +16,6 @@ The web project looks very well in Desktop, Laptop, iPad Pro, iPad, iPhone, Gala
 
 2. Inside of the repository directory a zipped folder with the name images is located. Unzip the images folder with the option Extract here. (Don't create a new folder called images or the image elements won't be linked properly).
 
-3. Open the index.html file in Google Chrome to see the project.
+3. Open the Portfolio.html file in Google Chrome to see the project.
 
 Author: Andrés R. Bucheli.
