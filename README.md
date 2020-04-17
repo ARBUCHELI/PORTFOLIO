@@ -18,4 +18,4 @@ The web project looks very well in Desktop, Laptop, iPad Pro, iPad, iPhone, Gala
 
 3. Open the Portfolio.html file in Google Chrome to see the project.
 
-Author: Andrés R. Bucheli.
+# Author: Andrés R. Bucheli.
